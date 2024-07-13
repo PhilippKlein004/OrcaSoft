@@ -34,7 +34,7 @@ As you can see, while you type, you get suggestions that you can select with the
 
 ![Sample_Image](https://kleinworkspace.com/images/OrcaSoft/OS_profile_company_edit.png)
 
-![Sample_Image](https://kleinworkspace.com/images/OrcaSoft/OS_profile_student_edit.png)
+![Sample_Image]()
 
 When you're logged in as a company, you'll see the regular data as well as your current vacancies on the left side. As a student, you'll see your regular data as well with your applications on the left side.
 
