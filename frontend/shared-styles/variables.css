@@ -1,0 +1,61 @@
+
+/* ==========================================================================
+  SCREEN WIDTH VARIABLES
+========================================================================== */
+
+$width-desktop: 2050px;
+$width-tablet:  100vw;
+$width-phone:   100vw;
+
+
+/* ==========================================================================
+  BREAKPOINTS VARIABLES
+========================================================================== */
+
+$breakpoint-smartphone: 767px;
+$breakpoint-tablet:    1024px;
+$breakpoint-laptop:    1550px;
+
+/* ==========================================================================
+  MEDIA QUERY MANAGER
+========================================================================== */
+
+@mixin respond($breakpoint)  {
+  @if $breakpoint == phone {
+    @media (max-width: $breakpoint-smartphone) { @content};
+    // MAX = 767px;
+  }
+  @if $breakpoint == tablet {
+    @media (max-width: $breakpoint-tablet) { @content};
+    // MAX = 1024px;
+  }
+  @if $breakpoint == laptop {
+    @media (max-width: $breakpoint-laptop) { @content};
+    // MAX = 1550px;
+  }
+}
+
+
+/* ==========================================================================
+  COLOR VARIABLES
+========================================================================== */
+
+$color-white: #fff;
+$color-black: #000;
+
+$text-color-light-heading: rgba(255, 255, 253, 1);  // Für Überschriften
+$text-color-light-text: rgba(147, 148, 152, 1);     // Für Standard Text
+
+$background-color-dark: rgba(27, 25, 29, 1);        // Hintergrundfarbe dunkel
+
+$background-color-element: rgba(39, 40, 45, 1);     // Elementfarbe etwas heller als Hintergrundfarbe
+
+$element-color-dark:  rgba(39, 40, 45, 1);          // Elementfarbe dunkel
+$element-color-blue:  #3559c7;                      // Elementfarbe blau
+
+$boxshadow-color: 15px 15px 20px #000;
+
+
+/* ==========================================================================
+  PADDING VARIABLES
+========================================================================== */

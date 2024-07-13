@@ -1,0 +1,106 @@
+
+/* ==========================================================================
+  BEWERBUNG VIEW - LAYOUT
+========================================================================== */
+
+.bewerbung-view {
+    width: 100vw;
+}
+
+/* ==========================================================================
+  BEWERBUNG VIEW - ROWS
+========================================================================== */
+
+.bewerbung-view_row {
+    width: 100%;
+}
+
+/* ==========================================================================
+  BEWERBUNG VIEW - COLUMNS
+========================================================================== */
+
+.bewerbung-view_row_col-1 {
+    min-width: 300px;
+    max-width: 350px;
+    /* height: auto; */
+}
+
+.bewerbung-view_row_col-1-sub {
+    width: 100%;
+}
+
+.bewerbung-view_row_col-2 {
+    /* width: 100%; */
+    /* height: auto; */
+}
+
+.bewerbung-view_row_col-3 {
+    min-width: 300px;
+    max-width: 350px;
+    /* height: auto; */
+}
+
+/* ==========================================================================
+  BEWERBUNG VIEW - OrcaSoft LOGO
+========================================================================== */
+
+.bewerbung-view_logo {
+    min-width: 200px;
+    max-width: 250px;
+}
+
+/* ==========================================================================
+  BEWERBUNG VIEW - Avatar (Profilbild Unternehmen)
+========================================================================== */
+
+.bewerbung-view_avatar {
+    min-width: 120px;
+    max-width: 240px;
+    min-height: 120px;
+    max-height: 240px;
+}
+
+/* ==========================================================================
+  BEWERBUNG VIEW - Avatar Kontaktinformation (Email Adresse unterhalb Profilbild Unternehmen)
+========================================================================== */
+
+.bewerbung-view_avatar_contact {
+    width: 100%;
+}
+
+/* ==========================================================================
+  BEWERBUNG VIEW - Headings
+========================================================================== */
+
+h2, h4, h5 {
+    width: 100%;
+}
+
+/* ==========================================================================
+  BEWERBUNG VIEW - Bewerbung Inhalt
+========================================================================== */
+
+.bewerbung-view_anschreiben-field {
+    width: 100%;
+    min-height: 250px;
+}
+
+.bewerbung-view_checkbox-lebenslauf {
+
+}
+
+.bewerbung-view_checkbox-motivationsschreiben {
+}
+
+
+/* ==========================================================================
+  BEWERBUNG VIEW - Buttons
+========================================================================== */
+
+.bewerbung-view_button-senden {
+    cursor: pointer;
+}
+
+.bewerbung-view_button-abbrechen {
+    cursor: pointer;
+}

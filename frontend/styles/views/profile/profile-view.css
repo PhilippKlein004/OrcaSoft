@@ -1,0 +1,44 @@
+vaadin-text-field[readonly]::part(input-field) {
+    --lumo-contrast-30pct: transparent;
+    --lumo-secondary-text-color: black;
+}
+
+vaadin-text-field[readonly]::part(label) {
+    --lumo-secondary-text-color: #4987c9;
+}
+
+vaadin-email-field[readonly]::part(input-field) {
+    --lumo-contrast-30pct: transparent;
+    --lumo-secondary-text-color: black;
+}
+
+vaadin-email-field[readonly]::part(label) {
+    --lumo-secondary-text-color: #4987c9;
+}
+
+vaadin-number-field[readonly]::part(input-field) {
+    --lumo-contrast-30pct: transparent;
+    --lumo-secondary-text-color: black;
+}
+
+vaadin-number-field[readonly]::part(label) {
+    --lumo-secondary-text-color: #4987c9;
+}
+
+vaadin-text-area[readonly]::part(input-field) {
+    --lumo-contrast-30pct: transparent;
+    --lumo-secondary-text-color: black;
+}
+
+vaadin-text-area[readonly]::part(label) {
+    --lumo-secondary-text-color: #4987c9;
+}
+
+vaadin-combo-box[readonly]::part(input-field) {
+    --lumo-contrast-30pct: transparent;
+    --lumo-secondary-text-color: black;
+}
+
+vaadin-combo-box[readonly]::part(label) {
+    --lumo-secondary-text-color: #4987c9;
+}

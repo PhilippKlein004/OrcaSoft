@@ -1,0 +1,116 @@
+
+/* ==========================================================================
+  LOGIN VIEW - LAYOUT
+========================================================================== */
+
+.login-view {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* ==========================================================================
+  LOGIN VIEW - ROWS
+========================================================================== */
+
+.login-view_row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15vh 0 0 0;
+}
+
+/* ==========================================================================
+  LOGIN VIEW - COLUMNS
+========================================================================== */
+
+.login-view_row_col-1 {
+    display: block;
+    width: 50%;
+    max-width: 50%;
+}
+
+.login-view_row_col-2 {
+    display: block;
+    max-width: 17.5%;
+    /* height: 100%; */
+    margin: 0 auto 0 0;
+    padding: 50px 25px;
+}
+
+/* ==========================================================================
+  LOGIN VIEW - OrcaSoft LOGO
+========================================================================== */
+
+.login-view_logo {
+    display: block;
+    margin: 0 0 0 auto;
+    width: 75%;
+    height: 75%;
+    min-width: 350px;
+    max-width: 500px;
+    min-height: 350px;
+    max-height: 500px;
+}
+
+/* ==========================================================================
+  LOGIN VIEW - HEADING
+========================================================================== */
+
+.login-view_row_col-2 h1 {
+    text-align: center;
+    margin: 0 0 20px 0;
+    padding: 0px;
+}
+
+/* ==========================================================================
+  LOGIN VIEW - USERNAME FIELD
+========================================================================== */
+
+.login-view_username-field {
+    width: 100%;
+}
+
+/* ==========================================================================
+  LOGIN VIEW - PASSWORD FIELD
+========================================================================== */
+
+.login-view_password-field {
+    width: 100%;
+}
+
+/* ==========================================================================
+  LOGIN VIEW - LOG IN BUTTON
+========================================================================== */
+
+.login-view_login-button {
+    display: block;
+    width: 100%;
+    /* loginButton.addThemeVariants(ButtonVariant.LUMO_PRIMARY); */
+}
+
+.login-view_login-button:hover {
+    cursor: pointer;
+}
+
+/* ==========================================================================
+  LOGIN VIEW - RESTLICHE ELEMENTE
+========================================================================== */
+
+.login-view_row_col-2 hr {
+    margin: 20px 0;
+}
+
+.login-view_row_col-2 a {
+    display: block;
+    text-align: center;
+}
+
+.login-view_row_col-2_text {
+    display: block;
+    text-align: center;
+}
+
+.login-view_login-text {
+    font-size: 100px;
+}

@@ -1,0 +1,86 @@
+/* ==========================================================================
+  ALL VIEWS - Text Fields
+========================================================================== */
+
+vaadin-text-field[readonly]::part(input-field) {
+    --lumo-contrast-30pct: transparent;
+    --lumo-secondary-text-color: black;
+}
+
+vaadin-text-field[readonly]::part(label) {
+    --lumo-secondary-text-color: dodgerblue;
+}
+
+/* ==========================================================================
+  ALL VIEWS - Text Areas
+========================================================================== */
+
+vaadin-text-area[readonly]::part(input-field) {
+    --lumo-contrast-30pct: transparent;
+    --lumo-secondary-text-color: black;
+}
+
+vaadin-text-area[readonly]::part(label) {
+    --lumo-secondary-text-color: dodgerblue;
+}
+
+/* ==========================================================================
+  ALL VIEWS - E-Mail Fields
+========================================================================== */
+
+vaadin-email-field[readonly]::part(input-field) {
+    --lumo-contrast-30pct: transparent;
+    --lumo-secondary-text-color: black;
+}
+
+vaadin-email-field[readonly]::part(label) {
+    --lumo-secondary-text-color: dodgerblue;
+}
+
+/* ==========================================================================
+  ALL VIEWS - Number Fields
+========================================================================== */
+
+vaadin-number-field[readonly]::part(input-field) {
+    --lumo-contrast-30pct: transparent;
+    --lumo-secondary-text-color: black;
+}
+
+vaadin-number-field[readonly]::part(label) {
+    --lumo-secondary-text-color: dodgerblue;
+}
+
+/* ==========================================================================
+  ALL VIEWS - Combo Boxes
+========================================================================== */
+
+vaadin-multi-select-combo-box[readonly]::part(input-field) {
+    --lumo-contrast-30pct: transparent;
+    --lumo-secondary-text-color: black;
+}
+
+vaadin-multi-select-combo-box[readonly]::part(label) {
+    --lumo-secondary-text-color: dodgerblue;
+}
+
+vaadin-combo-box[readonly]::part(input-field) {
+    --lumo-contrast-30pct: transparent;
+    --lumo-secondary-text-color: black;
+}
+
+vaadin-combo-box[readonly]::part(label) {
+    --lumo-secondary-text-color: dodgerblue;
+}
+
+/* ==========================================================================
+  ALL VIEWS - Date Picker
+========================================================================== */
+
+vaadin-date-picker[readonly]::part(input-field) {
+    --lumo-contrast-30pct: transparent;
+    --lumo-secondary-text-color: black;
+}
+
+vaadin-date-picker[readonly]::part(label) {
+    --lumo-secondary-text-color: dodgerblue;
+}
